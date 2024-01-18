@@ -1,5 +1,5 @@
 server:
-  port: 9191
+  port: 9091
 
 spring:
   application:
@@ -15,14 +15,3 @@ spring:
         CharSet: utf-8
         characterEncoding: utf-8
         useUnicode: true
-logging:
-  level:
-    root: DEBUG
-    org:
-      hibernate:
-        type: TRACE
-      springframework:
-        security: DEBUG
-  pattern:
-    level:
-      org.hibernate.orm.jdbc.bind: TRACE
