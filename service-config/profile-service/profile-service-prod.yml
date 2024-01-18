@@ -14,7 +14,7 @@ spring:
           issuer-uri: http://localhost:9191
 logging:
   level:
-    root: DEBUG
+    root: INFO
     org:
       hibernate:
         type: TRACE
