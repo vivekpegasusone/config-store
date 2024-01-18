@@ -12,14 +12,3 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:9191
-logging:
-  level:
-    root: DEBUG
-    org:
-      hibernate:
-        type: TRACE
-      springframework:
-        security: TRACE
-  pattern:
-    level:
-      org.hibernate.orm.jdbc.bind: TRACE
