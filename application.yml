@@ -1,11 +1,11 @@
 logging:
   level:
-    root: TRACE
+    root: DEBUG
     org:
       hibernate:
         type: TRACE
       springframework:
-        security: TRACE
+        security: DEBUG
   pattern:
     level:
       org.hibernate.orm.jdbc.bind: TRACE
